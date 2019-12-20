@@ -1,14 +1,9 @@
-# wblog [![Build Status](https://www.travis-ci.org/wangsongyan/wblog.svg?branch=master)](https://www.travis-ci.org/wangsongyan/wblog)  
-[示例地址](http://67.216.221.42/)
-
-## 初衷
-作为一名web开发程序员居然没有自己的博客，都不好意思对外宣称自己的开发web的。
-以前也有写博客的习惯，但是都是用的现有的博客网站。
+借鉴 https://github.com/wangsongyan/wblog
 
 ## 技术选型
 1. web:[gin](https://github.com/gin-gonic/gin)
 2. orm:[gorm](https://github.com/jinzhu/gorm)
-3. database:[sqlite3](https://github.com/mattn/go-sqlite3)
+3. database:mysql
 4. ~~全文检索:[wukong](https://github.com/huichen/wukong)~~
 5. 文件存储:~~[七牛云存储](https://www.qiniu.com/)~~[smms图床](https://sm.ms)
 6. 配置文件 [go-yaml](https://github.com/go-yaml/yaml)
@@ -40,18 +35,6 @@
 - [x] 定时备份系统数据
 - [x] 邮箱订阅功能
 
-## 安装部署
-本项目使用govendor管理依赖包，[govendor](https://github.com/kardianos/govendor)安装方法
-```
-go get -u github.com/kardianos/govendor
-```
-
-```
-git clone https://github.com/wangsongyan/wblog
-cd wblog
-govendor sync
-go run main.go
-```
 
 ## 使用方法
 ### 使用说明
@@ -75,15 +58,3 @@ go run main.go
     - smtp_host,例如：smtp.163.com:25
 4. Goland运行时，修改main.go getCurrentDirectory方法返回""
 
-## 效果图
-
-![file](screenshots/index.png)
-
-![file](screenshots/blog.png)
-
-![file](screenshots/admin.png)
-
-## 捐赠
-如果项目对您有帮助，打赏个鸡腿吃呗！  
-<img src="https://raw.githubusercontent.com/wangsongyan/wblog/master/screenshots/alipay.png" width = 40% height = 40% />
-<img src="https://raw.githubusercontent.com/wangsongyan/wblog/master/screenshots/weixin.png" width = 40% height = 40% />
