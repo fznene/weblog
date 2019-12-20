@@ -12,7 +12,7 @@ import (
 	//_ "github.com/go-sql-driver/mysql"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
-	"wblog/system"
+	"weblog/system"
 )
 
 // I don't need soft delete,so I use customized BaseModel instead gorm.Model
@@ -133,7 +133,7 @@ var DB *gorm.DB
 func InitDB() (*gorm.DB, error) {
 
 	db, err := gorm.Open("sqlite3", system.GetConfiguration().DSN)
-	//db, err := gorm.Open("mysql", "root:mysql@/wblog?charset=utf8&parseTime=True&loc=Asia/Shanghai")
+	//db, err := gorm.Open("mysql", "root:mysql@/weblog?charset=utf8&parseTime=True&loc=Asia/Shanghai")
 	if err == nil {
 		DB = db
 		//db.LogMode(true)

@@ -14,10 +14,10 @@ import (
 	"github.com/claudiu/gocron"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"wblog/controllers"
-	"wblog/helpers"
-	"wblog/models"
-	"wblog/system"
+	"weblog/controllers"
+	"weblog/helpers"
+	"weblog/models"
+	"weblog/system"
 )
 
 func main() {

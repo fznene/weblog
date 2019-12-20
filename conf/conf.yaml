@@ -13,13 +13,13 @@ github_scope:
 smtp_username:
 smtp_password:
 smtp_host:
-session_secret: wblog
+session_secret: weblog
 domain:
 public: static
 addr: :8090
 backup_key:
-dsn: wblog.db?_loc=Asia/Shanghai
-#dsn: root:mysql@/wblog?charset=utf8&parseTime=True&loc=Asia/Shanghai
+dsn: weblog.db?_loc=Asia/Shanghai
+#dsn: root:mysql@/weblog?charset=utf8&parseTime=True&loc=Asia/Shanghai
 notify_emails:
 page_size: 5
 smms_fileserver: https://sm.ms/api/upload

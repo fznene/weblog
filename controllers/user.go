@@ -12,9 +12,9 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
-	"wblog/helpers"
-	"wblog/models"
-	"wblog/system"
+	"weblog/helpers"
+	"weblog/models"
+	"weblog/system"
 )
 
 type GithubUserInfo struct {

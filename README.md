@@ -1,4 +1,4 @@
-借鉴 https://github.com/wangsongyan/wblog
+借鉴 https://github.com/wangsongyan/weblog
 
 ## 技术选型
 1. web:[gin](https://github.com/gin-gonic/gin)
@@ -10,7 +10,7 @@
 
 ## 项目结构
 ```
--wblog
+-weblog
     |-conf 配置文件目录
     |-controllers 控制器目录
     |-helpders 公共方法目录

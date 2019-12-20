@@ -9,9 +9,9 @@ import (
 	"mime/multipart"
 	"net/http"
 
-	"wblog/models"
+	"weblog/models"
 
-	"wblog/system"
+	"weblog/system"
 )
 
 type SmmsUploader struct {

@@ -10,9 +10,9 @@ import (
 
 	"github.com/denisbakhtin/sitemap"
 	"github.com/gin-gonic/gin"
-	"wblog/helpers"
-	"wblog/models"
-	"wblog/system"
+	"weblog/helpers"
+	"weblog/models"
+	"weblog/system"
 )
 
 const (

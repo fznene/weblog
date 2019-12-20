@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"wblog/models"
+	"weblog/models"
 )
 
 func SendMail(c *gin.Context) {
